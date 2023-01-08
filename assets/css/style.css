@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/roomDoor.png') no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    font-family: 'Petrona', serif;
+}
+
+.modal-content{
+    background: rgba(106,107,88, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(106,107,88, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    color: #f8f9fa;
+    border-color: #CB8F26;
+}
+
+.modal-title{
+    color: #CB8F26;
+    font-weight: bold;
+}
+
+.modal-header, .modal-footer{
+    border: none;
+}
+
+.btn{
+    border: 0.01rem solid #CB8F26;
+    border-radius: 7px;
+    color: #CB8F26;
+}
+
+.btnGame{
+    background: rgba(106,107,88, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(106,107,88, 0.37);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+}
+
+.btn:hover{
+    background-color: #CB8F26;
+    color: #f8f9fa;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 767px){
+    .img{
+        flex-direction: row;
+        margin-left: auto;
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .img{
+        flex-direction: row;
+        margin-left: auto;
+        width: 95%;
+        height: 95%;
+    }
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    background: url('../img/roomOfRequirement.png') no-repeat center center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+    font-family: 'Petrona', serif;
+}
+
+.block1{
+    flex: 1;
+}
+
+.block2{
+    flex: 2;
+}
+
+.block3{
+    flex: 1;
+}
+
+.d_a{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.d_e{
+    padding-top: 1rem;
+    padding-right: 1rem;
+    text-align: end;
+}
+
+#playerScoreBox{
+    color: #CD0E4A;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#iaScoreBox{
+    color: #92E59D;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card{
+    align-items: center;
+    margin: auto;
+    min-height: 15rem;
+    max-width: 50rem;
+    background: rgba( 8, 51, 69, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    flex-direction: row;
+}
+
+.block{
+    background: rgba( 8, 51, 69, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.curse{
+    color: #D0E3EA;
+    margin-top: 1.5rem;
+}
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 767px){
+    .img{
+        flex-direction: row;
+        margin-left: auto;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .img{
+        flex-direction: row;
+        margin-left: auto;
+        width: 65%;
+        height: 65%;
+    }
+}
+
